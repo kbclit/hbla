@@ -1,2 +1,0 @@
-# hbla
-KBC Houbungla Project 
