@@ -1,0 +1,22 @@
+
+[
+  {
+    "id": "2024060101",
+    "title": "App Update Available!",
+    "message": "A new version of the app is available with bug fixes and performance improvements. Tap here to update now!",
+    "timestamp": "2024-06-01T09:00:00Z",
+    "url": "https://play.google.com/store/apps/details?id=in.kbcliterature.labu"
+  },
+  {
+    "id": "2024052101",
+    "title": "New 'Occasions' Feature",
+    "message": "Find curated hymn lists for special events like Christmas, Good Friday, and more under the 'Phat bih neila' section in the menu.",
+    "timestamp": "2024-05-21T12:00:00Z"
+  },
+  {
+    "id": "2024052001",
+    "title": "Welcome to the KBC Labu App!",
+    "message": "We've updated the app with a fresh look and added the 'La Chom' hymn book. Check for hymn updates in the settings to get the latest songs.",
+    "timestamp": "2024-05-20T10:00:00Z"
+  }
+]
