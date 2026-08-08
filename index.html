@@ -2,18 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1.0" />
-    <title>Houbungla leh La Deilhen (KBC Labu)</title>
+    <title>Houbungla leh La Deilhen (KBC)</title>
 
     <!-- PWA Manifest -->
-    <link rel="manifest" href="/assets/manifest-CUHvFYui.json" />
+    <link rel="manifest" href="/assets/manifest-CAHao-h4.json" />
 
     <!-- Theme Color for Browser UI -->
     <meta name="theme-color" content="#2563EB" />
     
     <!-- App Icons -->
-    <link rel="icon" href="/icons/icon-192x192.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icon.svg">
 
     <!-- App Description -->
     <meta name="description" content="A church hymn book app in a local dialect which is not recognized but we used the english alphabet so there is no problem." />
@@ -21,7 +24,7 @@
     <!-- Apple PWA specific meta tags -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Houbungla leh La Deilhen (KBC Labu)" />
+    <meta name="apple-mobile-web-app-title" content="Houbungla leh La Deilhen (KBC)" />
 <style>
     #splash-screen-static {
         position: fixed;
@@ -83,24 +86,19 @@
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
-    "@capacitor/core": "https://aistudiocdn.com/@capacitor/core@^7.4.3",
-    "@capacitor-community/keep-awake": "https://aistudiocdn.com/@capacitor-community/keep-awake@^7.1.0",
     "vite": "https://aistudiocdn.com/vite@^7.1.9",
     "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.4",
-    "@capacitor/app": "https://aistudiocdn.com/@capacitor/app@^7.1.0",
-    "@capacitor/status-bar": "https://aistudiocdn.com/@capacitor/status-bar@^7.0.3",
     "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.296",
-    "pdfjs-dist/": "https://aistudiocdn.com/pdfjs-dist@^5.4.296/",
-    "@capacitor/cli": "https://aistudiocdn.com/@capacitor/cli@^7.4.3"
+    "pdfjs-dist/": "https://aistudiocdn.com/pdfjs-dist@^5.4.296/"
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-BdfCmbYb.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-vdt-ZWtn.css">
+  <script type="module" crossorigin src="/assets/index-CUsURTLm.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B6zRkUf5.css">
 </head>
   <body>
     <div id="splash-screen-static">
-        <img src="/icon/icon.png" alt="Houbungla leh La Deilhen (KBC) Logo" />
+        <img src="/icon.svg" alt="Houbungla leh La Deilhen (KBC) Logo" />
         <div class="splash-text-container">
             <h1>KUKI BAPTIST CONVENTION (I)</h1>
             <p>LITERATURE AND PUBLICATION BOARD</p>
@@ -109,5 +107,7 @@
     </div>
     <div id="root"></div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Google Identity Services SDK for authentic Google Sign-In -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
   </body>
 </html>

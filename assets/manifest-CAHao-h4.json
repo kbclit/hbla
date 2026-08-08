@@ -1,0 +1,40 @@
+{
+  "short_name": "KBC Labu",
+  "name": "Houbungla leh La Deilhen (KBC)",
+  "id": "/",
+  "description": "A church hymn book app in a local dialect which is not recognized but we used the english alphabet so there is no problem.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Hymns",
+      "short_name": "Search",
+      "description": "Find a hymn by title, number, or lyrics",
+      "url": "/#/search",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Favourite Hymns",
+      "short_name": "Favourites",
+      "description": "View your saved hymns",
+      "url": "/#/favourites",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563EB",
+  "background_color": "#ffffff"
+}
