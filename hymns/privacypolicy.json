@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "lastUpdated": "August 2026",
   "organization": "KUKI BAPTIST CONVENTION",
   "appTitle": "HOUBUNGLA & LADEILHEN APPS",
@@ -16,31 +16,35 @@
     },
     {
       "title": "3. Google Authentication & Cloud Sync",
-      "content": "If you voluntarily choose to sign in with your Google Account, we use Google Firebase Authentication solely to identify your account and enable optional cloud synchronization. When signed in:\n• Only your user identifier, display name, and email address provided by Google are used to create your secure sync session.\n• Your personal bookmarks (Favourites) and custom song lists (Playlists) are stored securely in Google Cloud Firestore under strict security rules so that only you can access, edit, or delete them.\n• You can sign out at any time or use the entire application completely offline without signing in."
+      "content": "If you voluntarily choose to sign in with your Google Account, we use Google Firebase Authentication solely to identify your account and enable optional cloud synchronization. When signed in:\n• Only your user identifier, display name, and email address provided by Google are used to create your secure sync session.\n• Your personal bookmarks (Favourites) and custom song lists (Custom Lists) are stored securely in Google Cloud Firestore under strict security rules so that only you can access, edit, or delete them.\n• You can sign out at any time or use the entire application completely offline without signing in."
     },
     {
-      "title": "4. Local Device Storage",
-      "content": "Personalization features such as Reading History, Favourites, Custom Playlists, and display preferences (font size, reading theme, keep-screen-awake setting) are stored directly on your device using local SQLite and SharedPreferences. This data stays on your device and is never shared with third parties."
+      "title": "4. Direct In-App Feedback & Suggestions",
+      "content": "When you voluntarily submit feedback, typos, or suggestions through the in-app feedback dialog, your message, subject, optional contact email, and referenced hymn details are saved securely to our Cloud Firestore database solely for review by the Literature and Publication Board to make corrections and improve the hymnal."
     },
     {
-      "title": "5. Network Requests & Content Updates",
-      "content": "The app makes anonymous network requests for the following purposes:\n• Hymn Database & Content Updates: Periodically checking and downloading updated hymn collections and lyrics corrections from our official server.\n• In-App Updates: Checking Google Play Store availability for new application builds.\n• Privacy Policy Updates: Fetching updated policy revisions.\n\nThese network requests are anonymous and do not transmit any personal data or device identifiers."
+      "title": "5. Local Device Storage",
+      "content": "Personalization features such as Reading History, Favourites, Custom Lists, and display preferences (font size, reading theme, keep-screen-awake setting) are stored directly on your device using local SQLite and SharedPreferences. This data stays on your device and is never shared with third parties."
     },
     {
-      "title": "6. Permissions Requested & Justifications",
-      "content": "The application requests minimal Android system permissions strictly necessary for worship utility:\n• WAKE_LOCK (Keep Screen On): Allows users to keep their phone display illuminated during sermons, church services, and choir rehearsals without screen dimming.\n• VIBRATE (Haptic Feedback): Provides subtle tactile feedback when dialing hymn numbers on the quick keypad or tapping interactive tabs.\n• INTERNET & ACCESS_NETWORK_STATE: Allows checking for hymn database updates and synchronizing cloud bookmarks when connected to the internet."
+      "title": "6. Network Requests & Content Updates",
+      "content": "The app makes anonymous network requests for the following purposes:\n• Hymn Database & Content Updates: Periodically checking and downloading updated hymn collections and lyrics corrections from our official server (https://kbclit.github.io/hbla/hymns/).\n• In-App Updates: Checking Google Play Store availability for new application builds.\n• Privacy Policy Updates: Fetching updated policy revisions.\n\nThese network requests are anonymous and do not transmit any personal data or device identifiers."
     },
     {
-      "title": "7. Children's Privacy",
+      "title": "7. Permissions Requested & Justifications",
+      "content": "The application requests minimal Android system permissions strictly necessary for worship utility:\n• WAKE_LOCK (Keep Screen On): Allows uninterrupted viewing of lyrics and songs without screen dimming.\n• VIBRATE (Haptic Feedback): Provides subtle tactile feedback when navigating songs and tapping interactive controls.\n• INTERNET & ACCESS_NETWORK_STATE: Allows checking for hymn database updates, submitting user feedback, and synchronizing cloud bookmarks when connected to the internet."
+    },
+    {
+      "title": "8. Children's Privacy",
       "content": "The Houbungla & Ladeilhen app is designed for all audiences, including families and children. We do not knowingly collect, solicit, or maintain any personal information from children under the age of 13."
     },
     {
-      "title": "8. Changes to This Privacy Policy",
+      "title": "9. Changes to This Privacy Policy",
       "content": "We may update our Privacy Policy periodically to reflect new features or regulatory requirements. Any updates will be published within the app and on our official portal. You can review the active version at any time in the app's About & Privacy Policy section."
     },
     {
-      "title": "9. Contact Information & Grievances",
-      "content": "If you have questions, feedback, or concerns regarding this Privacy Policy or your data, please contact us:\n\nLiterature and Publication Board\nKuki Baptist Convention (India)\nEmail: kbcliterature@gmail.com\nWebsite: https://play.google.com/store/apps/details?id=com.kbcliterature.songbook"
+      "title": "10. Contact Information & Grievances",
+      "content": "If you have questions, feedback, or concerns regarding this Privacy Policy or your data, please contact us:\n\nLiterature and Publication Board\nKuki Baptist Convention (India)\nEmail: kbcliterature@gmail.com\nWebsite: https://kbcliterature.in"
     }
   ]
 }
