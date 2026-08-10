@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "lastUpdated": "August 2026",
   "organization": "KUKI BAPTIST CONVENTION",
   "appTitle": "HOUBUNGLA & LADEILHEN APPS",
@@ -28,7 +28,7 @@
     },
     {
       "title": "6. Network Requests & Content Updates",
-      "content": "The app makes anonymous network requests for the following purposes:\n• Hymn Database & Content Updates: Periodically checking and downloading updated hymn collections and lyrics corrections from our official server (https://kbclit.github.io/hbla/hymns/).\n• In-App Updates: Checking Google Play Store availability for new application builds.\n• Privacy Policy Updates: Fetching updated policy revisions.\n\nThese network requests are anonymous and do not transmit any personal data or device identifiers."
+      "content": "The app makes anonymous network requests for the following purposes:\n• Hymn Database & Content Updates: Periodically checking and downloading updated hymn collections and lyrics corrections from our official server.\n• In-App Updates: Checking Google Play Store availability for new application builds.\n• Privacy Policy Updates: Fetching updated policy revisions.\n\nThese network requests are anonymous and do not transmit any personal data or device identifiers."
     },
     {
       "title": "7. Permissions Requested & Justifications",
